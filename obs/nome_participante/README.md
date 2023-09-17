@@ -38,5 +38,5 @@ Arquivo do template html que será replicado para criar os htmls especificados e
 Feito com [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) utilizando as seguintes configurações:
 
 ```bash
-pyinstaller --noconfirm --onefile --console --icon "path/to/ico" --name "nome_participantes"  "ath/to/script"
+pyinstaller --noconfirm --onefile --console --icon "path/to/ico" --name "nome_participantes"  "path/to/script"
 ```
