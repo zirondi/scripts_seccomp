@@ -24,16 +24,24 @@ Ex.:
 }
 ```
 
+Chaves com a keyword "Direita" (case sensitve), utilizaram o Template-Direita.html como base para criação do arquivo.
+
 ### Template.html
 
-Arquivo do template html que será replicado para criar os htmls especificados em data.json.
+Arquivo do template html default que será replicado para criar os htmls especificados em data.json.
+
+### Template-Direita.html
+
+Arquivo do template html estiliados para a direita que será replicado para criar os htmls especificados em data.json.
+
+Os arquivos Templates são separados no comentário `<!-- SPLIT -->` dentro deles.
 
 ## Uso
 
 1. Configurar os arquivos de pré-requisito.
 2. Executar o nome_participantes.exe
 
-## Build 
+## Build
 
 Feito com [auto-py-to-exe](https://pypi.org/project/auto-py-to-exe/) utilizando as seguintes configurações:
 
